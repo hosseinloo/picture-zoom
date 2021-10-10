@@ -1,0 +1,1 @@
+vanillaZoom.init('#pictureContainer');

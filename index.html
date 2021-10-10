@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="keywords" content="HTML5 , CSS , JavaScript , Bootstrap , image zoom , picture zoom , ES6 , Project , js , event, upload progress bar">
+        <meta name="description" content="Create Project Upload Progress Bar">
+        <meta http-equiv="author" content="Hossein Ghorbanloo">
+        <!-- <meta http-equiv="refresh" content="200 "> -->
+
+        <!-- Bootstrap CSS File -->
+        <link rel="stylesheet" href="./vendor/css/bootstrap/bootstrap.min.css">
+
+        <!-- Custom CSS File -->
+        <link rel="stylesheet" href="./src/css/index.css">
+
+        <!-- Title Info and Title Icon -->
+        <link rel="icon" href="./public/icons/title.png">
+        <link rel="apple-touch-icon" href="./public/icons/title.png">
+        <title>Picture Zoom</title>
+    </head>
+    <body>
+
+        <section class="min-vh-100 bg-dark bg-gradient">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="display-5 text-light text-center my-4">ZOOM</h1>
+                        <div class="picture-container" id="pictureContainer">
+                            <aside class="sidebar">
+                                <img src="./public/images/image1.jpg" alt="city picture" class="small-preview">
+                                <img src="./public/images/image2.jpg" alt="city picture" class="small-preview">
+                                <img src="./public/images/image3.jpg" alt="city picture" class="small-preview">
+                            </aside>
+                            <section class="zoom">
+
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Vanilla Zoom Plugin -->
+        <script src="./src/js/vanillazoom.js"></script>
+        <!-- JS Main File -->
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>
